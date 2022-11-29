@@ -43,7 +43,7 @@ env:
 
 jobs:
   ecr-repo:
-    name: ECR Repo & Image
+    name: ECR Repo & Image v1
     runs-on: ubuntu-latest
     outputs:
       image: ${{ steps.build-image.outputs.image }}
